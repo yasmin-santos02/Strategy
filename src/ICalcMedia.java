@@ -14,7 +14,7 @@ class MediaAritmetica implements ICalcMedia {
         if (media > 5) {
             return "Aprovado!";
         } else
-            return "Reprovado...";
+            return "Reprovado..";
     }
 }
 
@@ -28,6 +28,6 @@ class MediaGeometrica implements ICalcMedia {
         if (media > 7) {
             return "Aprovado!";
         } else
-            return "Reprovado...";
+            return "Reprovado..";
     }
 }
